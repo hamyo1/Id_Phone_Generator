@@ -1,0 +1,38 @@
+<div id="GenerateRealCarId" class="container mt-4">
+    <h5 class="text-center">מספר רכב ממאגר המדינה</h5>
+    <br><br>
+    <form>
+        <div class="form-group">
+            <h6 class="text-center" for="exampleFormControlInput1">מספר רכב</h6>
+            <input class="form-control text-center" value={{carDataObj.carId}}>
+        </div>
+        <div class="form-group">
+            <h6 class="text-center" for="exampleFormControlInput1">מספר שילדה</h6>
+            <input class="form-control text-center" value={{carDataObj.vin}}>
+        </div>
+        <div class="form-group">
+            <h6 class="text-center" for="exampleFormControlInput1">דגם</h6>
+            <input class="form-control text-center" value={{carDataObj.tozeret_nm}}>
+        </div>
+        <div class="form-group">
+            <h6 class="text-center" for="exampleFormControlInput1">קוד תוצר</h6>
+            <input class="form-control text-center" value={{carDataObj.tozeret_cd}}>
+        </div>
+        <br>
+
+    </form>
+    <div class="col-md-12 text-center">
+        <br><br>
+        <button (click)="generateCarIdFromDataGov(carsSelect.value)" class="center form-control btn btn-secondary">צור חדש</button>
+        <br>
+        <h6 for="cars">פילטור לפי סוג רכב</h6>
+        <select class="form-control btn btn-secondary" #carsSelect selected="" (change)="generateCarIdFromDataGov(carsSelect.value)">
+          <option value="" class="text-center" selected>ללא (כל הדגמים)</option>
+          <option class="text-center" value="פיג'ו,Peugeot,145">פיג'ו</option>
+          <option class="text-center" value="סיטרואן,Citroen,167">סיטרואן</option>
+          <option class="text-center" value="אופל,Opel,161">אופל</option>
+          <option class="text-center" value="מ.ג,Mg,147">אם ג'י</option>
+          <option class="text-center" value="די.אס,Ds,78">ds</option>
+        </select>
+    </div>
+</div>

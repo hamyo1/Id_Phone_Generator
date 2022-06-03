@@ -1,0 +1,16 @@
+<div id="phoneGeneratorDiv" class="container mt-3">
+    <h5 class="text-center">פלאפון ישראלי רנדומלי</h5>
+    <br><br>
+    <form>
+        <div class="form-group">
+            <input class="form-control text-center" #phoneGenerateInput value={{phoneGenerate}}><br><br>
+        </div>
+        <div class="form-group">
+            <button class="form-control btn btn-secondary btn btn-secondary" type="button" (click)="generatePhone()">צור חדש</button>
+        </div><br>
+        <div class="form-group">
+            <button class="form-control btn btn-secondary btn btn-secondary" type="button" (click)="checkPhone(phoneGenerateInput.value)">בדוק האם המספר חוקי</button>
+        </div>
+    </form>
+
+</div>

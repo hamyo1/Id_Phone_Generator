@@ -1,0 +1,12 @@
+<div id="CarIdGeneratorDiv" class="container mt-3">
+    <h5 class="text-center">מספר רכב רנדומלי</h5>
+    <br><br>
+    <form>
+        <div class="form-group">
+            <input class="form-control text-center" #idInput value={{CarIdGenerate}}><br><br>
+        </div>
+        <div class="form-group">
+            <button class="form-control btn btn-secondary" type="button" (click)="generateCarId()">צור חדש</button>
+        </div>
+    </form>
+</div>

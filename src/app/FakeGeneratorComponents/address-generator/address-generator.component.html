@@ -1,0 +1,16 @@
+<div id="AdressGeneratorDiv" class="container mt-3">
+    <h5 class="text-center">כתובת רנדומלית</h5>
+    <br>
+    <form>
+        <div class="form-group">
+            <h6 class="text-center" for="exampleFormControlInput1">עיר</h6>
+            <input class="form-control text-center" value={{city}}>
+        </div>
+        <div class="form-group">
+            <h6 class="text-center" for="exampleFormControlInput1">רחוב</h6>
+            <input class="form-control text-center" value={{street}}>
+        </div>
+    </form>
+    <br>
+    <button (click)="myGneratedAddress()" class="center form-control btn btn-secondary">צור חדש</button>
+</div>

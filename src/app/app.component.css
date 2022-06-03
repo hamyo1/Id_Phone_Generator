@@ -1,0 +1,25 @@
+app-id-generator{
+    background: lightblue;
+    height: 300px;
+}
+app-phone-generator{
+    background: lightgreen;
+    height: 300px;
+}
+app-address-generator{
+    background: lightpink;
+    height: 300px;
+}
+app-real-car-id-from-data-gov{
+    background: #DDBDF1;
+    height: 636.4px;
+}
+app-car-id-genrator{
+    background: rgb(173, 230, 203);
+    height: 300px;
+}
+h1{
+    background: rgb(140, 240, 170);
+    height: 60px;
+
+}

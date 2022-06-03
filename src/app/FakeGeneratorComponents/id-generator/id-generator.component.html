@@ -1,0 +1,15 @@
+
+<div id="idGeneratorDiv" class="container mt-3">
+    <h5 class="text-center">תעודת זהות רנדומלית</h5>
+    <br><br>
+    <form>
+        <div class="form-group">
+            <input class="form-control text-center" #idInput value={{IdGenerate}}><br>
+            <button class="form-control btn btn-secondary" type="button" (click)="generateId()">צור חדש</button>
+        </div><br>
+        <div class="form-group">
+            <button class="form-control btn btn-secondary" type="button" (click)="checkId(idInput.value)">בדוק האם המספר חוקי</button>
+        </div>
+    </form>
+</div>
+

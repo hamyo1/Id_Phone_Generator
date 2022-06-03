@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/id-phone-generator",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
