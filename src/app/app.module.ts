@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IdGeneratorComponent } from './FakeGeneratorComponents/id-generator/id-generator.component';
 import { PhoneGeneratorComponent } from './FakeGeneratorComponents/phone-generator/phone-generator.component';
-import { CarIdGenratorComponent } from './FakeGeneratorComponents/car-id-genrator/car-id-genrator.component';
 import { AddressGeneratorComponent } from './FakeGeneratorComponents/address-generator/address-generator.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RealCarIdFromDataGovComponent } from './FakeGeneratorComponents/real-car-id-from-data-gov/real-car-id-from-data-gov.component';
@@ -20,7 +19,6 @@ import { RandNameEmailComponent } from './FakeGeneratorComponents/rand-name-emai
     AppComponent,
     IdGeneratorComponent,
     PhoneGeneratorComponent,
-    CarIdGenratorComponent,
     AddressGeneratorComponent,
     RealCarIdFromDataGovComponent,
     RandNameEmailComponent
