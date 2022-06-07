@@ -13,6 +13,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from '../environments/environment';
 import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { RandNameEmailComponent } from './FakeGeneratorComponents/rand-name-email/rand-name-email.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     PhoneGeneratorComponent,
     CarIdGenratorComponent,
     AddressGeneratorComponent,
-    RealCarIdFromDataGovComponent
+    RealCarIdFromDataGovComponent,
+    RandNameEmailComponent
   ],
   imports: [
     BrowserModule,

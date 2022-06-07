@@ -1,0 +1,17 @@
+<div id="AdressGeneratorDiv" class="container mt-3">
+    <h5 class="text-center">שם ומייל</h5>
+    <br>
+    <form>
+        <div class="form-group">
+            <h6 class="text-center" for="exampleFormControlInput1">שם פרטי + משפחה</h6>
+            <input class="form-control text-center" value={{fullName}} >
+        </div>
+
+        <div class="form-group">
+            <h6 class="text-center" for="exampleFormControlInput1">כתובת מייל</h6>
+            <input class="form-control text-center" value={{email}}>
+        </div>
+    </form>
+    <br>
+    <button (click)="myGneratedNames()" class="center form-control btn btn-secondary">צור חדש</button>
+</div>
